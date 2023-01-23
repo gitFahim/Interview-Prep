@@ -1,0 +1,14 @@
+
+def reverse(str1):
+    
+    txt = str1[::-1]
+    if(txt == str1):
+        print("Ye palindrome ji")
+    else:
+        print("palindrome nehi ye")
+    print(txt)
+    print(str1)
+
+str1 = input()
+str1 = str1.lower()
+reverse(str1)
