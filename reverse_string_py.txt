@@ -1,0 +1,6 @@
+def reverse(str):
+    txt = str[::-1]
+    print(txt)
+
+str = input()
+reverse(str)
